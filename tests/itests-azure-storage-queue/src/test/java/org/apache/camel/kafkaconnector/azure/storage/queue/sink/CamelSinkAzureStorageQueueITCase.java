@@ -128,7 +128,6 @@ public class CamelSinkAzureStorageQueueITCase extends AbstractKafkaTest {
     }
 
 
-    @Disabled("Disabled due to issue #409")
     @Test
     @Timeout(90)
     public void testBasicSendReceive() throws InterruptedException, ExecutionException, IOException {
